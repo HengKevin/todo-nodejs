@@ -1,0 +1,33 @@
+{
+  "name": "todo-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HengKevin/todo-nodejs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HengKevin/todo-nodejs/issues"
+  },
+  "homepage": "https://github.com/HengKevin/todo-nodejs#readme",
+  "dependencies": {
+    "connect-mongo": "^4.6.0",
+    "dotenv": "^10.0.0",
+    "ejs": "^3.1.6",
+    "express-session": "^1.17.2",
+    "mongoose": "^6.0.13",
+    "passport": "^0.5.0",
+    "passport-google-oauth20": "^2.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
